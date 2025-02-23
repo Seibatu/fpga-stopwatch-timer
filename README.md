@@ -51,10 +51,10 @@ To test the design before FPGA implementation:
 ## 📂 Repository Structure
 ```
 📂 src/               # Verilog source files
-   ├── topModule.v     # Top-level module
-   ├── counterCtrl.v  # Counter logic
    ├── bcdCtrl.v      # Binary to BCD conversion
+   ├── counterCtrl.v  # Counter logic   
    ├── sevenSegment.v # 7-segment display driver
+   ├── topModule.v     # Top-level module
 
 📂 testbench/       # Testbenches and simulations
 📂 waveforms/       # Simulation waveform images
