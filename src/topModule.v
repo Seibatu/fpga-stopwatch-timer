@@ -9,15 +9,26 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
-// 
+// Description:   
+/*
+       This is the top-level module for the Stopwatch Timer. It integrates all sub-modules, 
+       including the counter, binary-to-BCD conversion, and 7-segment display driver.
+    
+       Usage
+       Ensure all required modules are included in your Verilog project before simulating or synthesizing.
+*/
 // Dependencies: 
-// 
+/*
+      - `counterCtrl.v` (Counter logic)
+      - `bcdCtrl.v` (Binary to BCD conversion)
+      - `sevenSegment.v` (7-segment display driver)
+*/
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
+
 
 module cheggQ20 (
     input clk,
