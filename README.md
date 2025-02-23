@@ -58,7 +58,8 @@ To test the design before FPGA implementation:
 
 📂 testbench/       # Testbenches and simulations
 📂 waveforms/       # Simulation waveform images
-📂 docs/            # Documentation
+📂 docs/                   # Documentation
+   ├── schematic_top.pdf	# Top-level schematic
 ```
 
 ---
